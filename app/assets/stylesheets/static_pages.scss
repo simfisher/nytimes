@@ -1,0 +1,28 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+    font-family: 'nyt-franklin';
+      src: url('assets/fonts/librefranklin-black.ttf') format('truetype');
+    font-family:'nyt-cheltenham';
+      src: url('assets/fonts/Cheltenham-NormalRegular.ttf') format('truetype');
+   }
+    
+body
+{
+  display:flex;
+  flex-direction: row;
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+  color:rgb(41,41,41);
+}
+
+nav
+{
+  width:30px;
+  top:0;
+  left:0;
+  border-right:1px solid rgb(226,226,226);
+  background-image: url(assets/shadow.png);
+  background-repeat : repeat-y;
+}

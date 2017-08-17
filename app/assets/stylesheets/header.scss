@@ -1,0 +1,47 @@
+
+header
+{
+
+  .container 
+  {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1000;
+  }
+
+
+/* button*/
+
+  .btn 
+  {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: auto;
+    padding: 7px 9px;
+    border: 1px solid #e2e2e2;
+    background-color: #6288A5;
+    color: #fff !important;
+    cursor: pointer;
+    height: 30px;
+  }
+
+  #setting-button 
+  {
+  border: 0;
+  background-color: #6288A5;
+  padding: 0px !important;
+  }
+
+}
